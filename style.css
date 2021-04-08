@@ -1,0 +1,45 @@
+:root {
+    --bg-1: #0d47a1;
+    --bg-2: #26a69a;
+    --bg-3: #81d4fa; 
+  }
+
+html,body{
+    padding: 0;
+    margin: 0;
+}
+
+#content{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #008080;
+    background-blend-mode: overlay;
+
+
+    animation-name: bluecolours;
+    animation-duration: 8s;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite
+
+}
+
+.content-wrapper{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+    color:#fff;
+}
+
+
+/* The animation code */
+@keyframes bluecolours {
+    0% {background: var(--bg-1)}
+    50% {background: var(--bg-2)}
+    100% {background: var(--bg-3)}
+}
