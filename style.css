@@ -1,7 +1,12 @@
 :root {
     --bg-1: #0d47a1;
     --bg-2: #26a69a;
-    --bg-3: #81d4fa; 
+    /* --bg-3: #81d4fa;  */
+    --bg-3: #FFA400; 
+    --bg-4: #5B3256; 
+    --bg-5: #F22613; 
+    --bg-6: #19B5FE; 
+    --bg-7: #F57C00; 
   }
 
 html,body{
@@ -20,8 +25,8 @@ html,body{
 
 
     animation-name: bluecolours;
-    animation-duration: 8s;
-    animation-timing-function: linear;
+    animation-duration: 20s;
+    animation-timing-function: ease-in;
     animation-direction: alternate;
     animation-fill-mode: both;
     animation-iteration-count: infinite
@@ -40,6 +45,10 @@ html,body{
 /* The animation code */
 @keyframes bluecolours {
     0% {background: var(--bg-1)}
-    50% {background: var(--bg-2)}
-    100% {background: var(--bg-3)}
+    16% {background: var(--bg-2)}
+    32% {background: var(--bg-3)}
+    50% {background: var(--bg-4)}
+    66% {background: var(--bg-5)}
+    82% {background: var(--bg-6)}
+    100% {background: var(--bg-7)}
 }
