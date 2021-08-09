@@ -29,7 +29,7 @@ html,body{
     justify-content: center;
     background-color: #008080;
     background-blend-mode: overlay;
-    background: repeating-linear-gradient(0deg, #19B5FE,  #19B5FE 10%, #F22613 10%, #F22613 20%, #f7ca18 20%, #f7ca18 30%, #00CED1 30%, #00CED1 40%,var(--bg-5) 40%, var(--bg-5) 50%, var(--bg-6) 50%, var(--bg-6) 60%, var(--bg-7) 60%, var(--bg-7) 70%);
+    background: repeating-linear-gradient(180deg, #19B5FE,  #19B5FE 10%, #F22613 10%, #F22613 20%, #f7ca18 20%, #f7ca18 30%, #00CED1 30%, #00CED1 40%,var(--bg-5) 40%, var(--bg-5) 50%, var(--bg-6) 50%, var(--bg-6) 60%, var(--bg-7) 60%, var(--bg-7) 70%);
 
 
     /* animation-name: bluecolours;
