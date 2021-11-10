@@ -13,6 +13,7 @@
     --bg-5: #e3c099;
     --bg-6: #F62459;
     --bg-7: #2ABB9B;
+    --bg-8: #006269;
     
   }
 
@@ -27,17 +28,10 @@ html,body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #008080;
+    background-color: #006269;
     background-blend-mode: overlay;
-    background: repeating-linear-gradient(180deg, #19B5FE,  #19B5FE 10%, #F22613 10%, #F22613 20%, #f7ca18 20%, #f7ca18 30%, #00CED1 30%, #00CED1 40%,var(--bg-5) 40%, var(--bg-5) 50%, var(--bg-6) 50%, var(--bg-6) 60%, var(--bg-7) 60%, var(--bg-7) 70%);
-
-
-    /* animation-name: bluecolours;
-    animation-duration: 12s;
-    animation-timing-function: ease-in-out;
-    animation-direction: alternate;
-    animation-fill-mode: both;
-    animation-iteration-count: infinite */
+    background: repeating-linear-gradient(180deg, #19B5FE,  #19B5FE 10%, #F22613 10%, #F22613 20%, #f7ca18 20%, #f7ca18 30%, #00CED1 30%, #00CED1 40%,var(--bg-5) 40%, var(--bg-5) 50%, var(--bg-6) 50%, var(--bg-6) 60%, var(--bg-7) 60%, var(--bg-7) 70%, var(--bg-8) 70%, var(--bg-8) 80%);
+    margin-bottom: 40px;
 
 }
 
@@ -48,7 +42,7 @@ html,body{
     text-align: center;
     color:#fff;
     padding: 30px 30px;
-    background-color: #049372
+    background-color: #006269
 }
 
 
@@ -61,4 +55,17 @@ html,body{
     /* 66% {background: var(--bg-5)}
     82% {background: var(--bg-6)} */ 
     100% {background: var(--bg-2)}
+}
+
+.flex.row{
+    margin-bottom: 20px;
+}
+
+.flex.row .col{
+    flex: 1;
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 10px 0 10px;
 }
