@@ -30,7 +30,7 @@ html,body{
     justify-content: center;
     background-color: #006269;
     background-blend-mode: overlay;
-    background: repeating-linear-gradient(180deg, #19B5FE,  #19B5FE 10%, #F22613 10%, #F22613 20%, #f7ca18 20%, #f7ca18 30%, #00CED1 30%, #00CED1 40%,var(--bg-5) 40%, var(--bg-5) 50%, var(--bg-6) 50%, var(--bg-6) 60%, var(--bg-7) 60%, var(--bg-7) 70%, var(--bg-8) 70%, var(--bg-8) 80%);
+    background: repeating-linear-gradient(90deg, #19B5FE,  #19B5FE 10%, #F22613 10%, #F22613 20%, #f7ca18 20%, #f7ca18 30%, #00CED1 30%, #00CED1 40%,var(--bg-5) 40%, var(--bg-5) 50%, var(--bg-6) 50%, var(--bg-6) 60%, var(--bg-7) 60%, var(--bg-7) 70%, var(--bg-8) 70%, var(--bg-8) 80%);
     margin-bottom: 40px;
 
 }
@@ -145,4 +145,20 @@ html,body{
       #dedede 84%,
       #a1a1a1
     );
+  }
+
+  .dot-background{
+    background:
+        -moz-radial-gradient(white 15%, transparent 16%),
+        -moz-radial-gradient(white 15%, transparent 16%),
+        black;
+    background:
+    -webkit-radial-gradient(white 15%, transparent 16%),
+    -webkit-radial-gradient(white 15%, transparent 16%),
+    black;
+    background-position: 0 0, 80px 80px;
+    
+    -webkit-background-size:160px 160px;
+    -moz-background-size:160px 160px;
+    background-size:160px 160px;
   }
